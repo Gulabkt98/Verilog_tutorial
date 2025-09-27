@@ -33,7 +33,7 @@ module tb ();
   // Dump waveform
   initial begin
     $dumpfile("gate.vcd");
-    $dumpvars(0, tb);  // dump all signals inside testbench
+    $dumpvars(0,tb);  // dump all signals inside testbench
   end
 endmodule
 
